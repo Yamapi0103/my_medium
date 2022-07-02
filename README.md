@@ -31,3 +31,8 @@ $ rails _5.2.8_ new medium_project -d postgresql (指令5.2.8版本的rails, 並
 
 ## 會員表單客製化
    $ rails generate devise:view
+
+## 升級某個gems流程
+  - https://rubygems.org/ 搜尋想升級的gems
+  - 貼到 gemfile 取代該行
+  - $ bundle update
